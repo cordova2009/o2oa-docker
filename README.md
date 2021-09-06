@@ -1,10 +1,10 @@
 # o2oa-docker
 o2oa docker containerization
+docker configurations e.g. alpine, CentOS and Debian are provided
 
 ## Build
 
 To build docker image:
-Copy the corresponding Dockfile to o2server directory, Then execute the following command
 ```Docker
 cd o2server
 docker build -t o2oa .
@@ -19,6 +19,6 @@ $ docker run -d -p 9900:9900 -p 20020:20020 -p 20030:20030 -v /opt/o2server/conf
 ```
 
 
-Of course, you can write your own compose to run the docker container.
+Of course, you can write docker-compose to run the docker container.
 
 
