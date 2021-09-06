@@ -4,6 +4,7 @@ o2oa docker containerization
 ## Build
 
 To build docker image:
+Copy the corresponding Dockfile to o2server directory, Then execute the following command
 ```Docker
 cd o2server
 docker build -t o2oa .
